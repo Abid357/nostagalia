@@ -1,15 +1,15 @@
 const data = {
   "options": [
     "abid",
-    "mizan",
-    "ifti",
+    // "mizan",
+    // "ifti",
     "reza",
     "shabib",
     "huzaifa",
-    "sakib",
-    "talha",
+    // "sakib",
+    // "talha",
     "shehbaz",
-    "abdulrehman"
+    // "abdulrehman"
   ],
   "questions": [
     "This guy worked the least in his own Master's thesis because we did it for him.",
@@ -25,13 +25,12 @@ const data = {
     "This guy takes the crown of laziness and procrastination because it took him 2+ years to get a chair.",
     "Who uses the N-word oddly often despite living in a country that can easily cancel him?",
     "The title of 'aim noob' based on a famous story was bestowed upon him.",
-    "That one friend who always captures moments and is the default photographer of every group.",
-    "This guy said he can make literally any food in his house even though he never made any for us but we believe him.",
+    "Every group has that one friend who always captures moments and is the default photographer.",
+    "This guy said he can literally make any food in his house even though he never made any for us but we believe him.",
     "This guy has had a clash or an argument with every single member of the group.",
     "The van guy.",
     "Who is the latest addition to our group?",
     "This gentleman pulled a Thanos flick to split the old Oxford-AUS group into the Secret group we have today.",
-
   ],
   "answers": [
     "mizan",
@@ -83,8 +82,8 @@ function shuffle(array) {
 function init() {
   // for (let i = 0; i < data.questions.length; i += 1) {
   //   questionIndices.push(i);
-  // }
-  for (let i = 0; i < 0; i += 1) {
+  // }  
+  for (let i = 13; i < 14; i += 1) {
     questionIndices.push(i);
   }
   questionIndices = shuffle(questionIndices);
@@ -142,7 +141,7 @@ async function correctAnswer(event) {
   }
   const num = Math.floor(Math.random() * 5) + 1;
   let audio;
-  if (['shehbaz', 'shabib', 'huzaifa', 'mizan'].includes(button.value))
+  if (['shehbaz', 'shabib', 'huzaifa', 'mizan', 'reza'].includes(button.value))
     audio = new Audio('audios/' + button.value + '-correct-' + num + '.mp4');
   else
     audio = new Audio('audios/abid-correct-1.mp3');
@@ -156,17 +155,22 @@ async function wrongAnswer(event) {
   const button = getButton(event);
   const num = Math.floor(Math.random() * 5) + 1;
   let audio;
-  if (['shehbaz', 'shabib', 'huzaifa', 'mizan'].includes(button.value))
+  if (['shehbaz', 'shabib', 'huzaifa', 'mizan', 'reza'].includes(button.value))
     audio = new Audio('audios/' + button.value + '-wrong-' + num + '.mp4');
   else
     audio = new Audio('audios/abid-wrong-1.mp3');
   await playAudio(audio);
 }
 
+function startGame() {
+  console.log('start game')
+}
+
 function endGame() {
   document.getElementById('main-page').style.display = 'none';
   document.getElementById('game-over-page').style.display = 'block';
-  console.log('Game over!');
+  document.getElementById('correct-score-game-over').innerText = correctScore.innerText;
+  document.getElementById('wrong-score-game-over').innerText = wrongScore.innerText;
 }
 
 init();

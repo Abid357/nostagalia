@@ -7,22 +7,41 @@
 </head>
 
 <body>
-    <div id="main-page" class="container">
-        <h1>_</h1>
+    <div class="container start-page">
+        <div class="center font-20 font-italic">Welcome to</div>
+        <h1 class="center">Nostagalia</h1>
+        <div class="card left" style="background-color: #519ba4;">A simple trivia game made on the occasion of Reza's
+            wedding
+            dedicated to the members of the Secret Group.</div>
+        <img style="width: 50%;float: right;" src="images/group.jpg" alt="Group">
+    </div>
+    <div class="card-separator start-page">
+        THERE ARE <strong>100</strong> QUESTIONS
+    </div>
+    <div class="container start-page">
+        <div class="card left" style="background-color: #3f6fa9;">Try to select (or guess) the right person that fits
+            the answer. Watch out though! If you answer incorrectly, you will be taunted.</div>
+            <img style="width: 100%;" src="images/tutorial.PNG" alt="Tutorial">
+        <div class="card right" style="background-color: #e55447;">Make sure to play with sound on!</div>
+    </div>
+    <div class="card-separator start-page">
+        HAVE FUN
+    </div>
+    <div class="start-page container">
+        <button type="button" class="button" onclick="startGame">PLAY</button>
+    </div>
+    <div id="main-page" class="container" style="display: none;">
+        <h1>Nostagalia</h1>
         <div class="score-container">
-            <div class="score">
-                <h1 id="correct-score">
-                    0
-                </h1>
+            <div class="score-correct">
+                <h1 id="correct-score">0</h1>
                 <div>
                     Correct
                 </div>
             </div>
             <div id="question"></div>
-            <div class="score">
-                <h1 id="wrong-score">
-                    0
-                </h1>
+            <div class="score-wrong">
+                <h1 id="wrong-score">0</h1>
                 <div>
                     Wrong
                 </div>
@@ -47,13 +66,27 @@
             </div>
         </div>
     </div>
-    
-    <!-- GAME OVER PAGE -->
+
     <div id="game-over-page" class="container" style="display: none;">
-        <h1>GAME OVER</div>
+        <h1>GAME OVER</h1>
         <div class="your-score">You scored</div>
-        <div class="refresh">Refresh the page to restart the game.</div>
+        <div class="score-container-game-over">
+            <div class="score-correct">
+                <h1 id="correct-score-game-over">0</h1>
+                <div>
+                    Correct
+                </div>
+            </div>
+            <div class="score-wrong">
+                <h1 id="wrong-score-game-over">0</h1>
+                <div>
+                    Wrong
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div class="refresh" style="display: none;">Refresh the page to restart the game</div>
 
     <script src="script.js"></script>
 </body>
