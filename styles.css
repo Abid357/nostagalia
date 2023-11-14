@@ -39,6 +39,9 @@
     text-align: center;
     font-family: "Roboto", sans-serif;
     padding: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 5px;
 }
 
 .card {
