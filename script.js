@@ -9,7 +9,7 @@ const data = {
     // "sakib",
     // "talha",
     "shehbaz",
-    // "abdulrehman"
+    "abdulrehman"
   ],
   "questions": [
     "This guy worked the least in his own Master's thesis because we did it for him.",
@@ -22,7 +22,7 @@ const data = {
     "You may be bad but who has absolutely the worst sense of maps and directions and can't remember roads?",
     "His dorm was our default place to be at AUS.",
     "This fool almost killed someone (not really) by throwing a table tennis racket.",
-    "This guy takes the crown of laziness and procrastination because it took him 2+ years to get a chair.",
+    "This guy takes the crown of laziness and procrastination because it took him 2+ years to buy a chair.",
     "Who uses the N-word oddly often despite living in a country that can easily cancel him?",
     "The title of 'aim noob' based on a famous story was bestowed upon him.",
     "Every group has that one friend who always captures moments and is the default photographer.",
@@ -82,10 +82,7 @@ function shuffle(array) {
 function init() {
   for (let i = 0; i < data.questions.length; i += 1) {
     questionIndices.push(i);
-  }  
-  // for (let i = 13; i < 14; i += 1) {
-  //   questionIndices.push(i);
-  // }
+  }
   questionIndices = shuffle(questionIndices);
   document.getElementById('question-count').innerText = questionIndices.length;
   loadQuestion();
