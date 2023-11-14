@@ -10,25 +10,25 @@
     <div class="container start-page">
         <div class="center font-20 font-italic">Welcome to</div>
         <h1 class="center">Nostagalia</h1>
-        <div class="card left" style="background-color: #519ba4;">A simple trivia game made on the occasion of Reza's
+        <div class="card left" style="background-color: #58ad58;">A simple trivia game made on the occasion of Reza's
             wedding
             dedicated to the members of the Secret Group.</div>
         <img style="width: 50%;float: right;" src="images/group.jpg" alt="Group">
     </div>
     <div class="card-separator start-page">
-        THERE ARE <strong>100</strong> QUESTIONS
+        THERE ARE <strong id="question-count">100</strong> QUESTIONS
     </div>
     <div class="container start-page">
         <div class="card left" style="background-color: #3f6fa9;">Try to select (or guess) the right person that fits
             the answer. Watch out though! If you answer incorrectly, you will be taunted.</div>
-            <img style="width: 100%;" src="images/tutorial.PNG" alt="Tutorial">
+        <img style="width: 100%;" src="images/tutorial.PNG" alt="Tutorial">
         <div class="card right" style="background-color: #e55447;">Make sure to play with sound on!</div>
     </div>
     <div class="card-separator start-page">
         HAVE FUN
     </div>
     <div class="start-page container">
-        <button type="button" class="button" onclick="startGame">PLAY</button>
+        <button type="button" class="button" onclick="startGame()">PLAY</button>
     </div>
     <div id="main-page" class="container" style="display: none;">
         <h1>Nostagalia</h1>
@@ -86,7 +86,7 @@
         </div>
     </div>
 
-    <div class="refresh" style="display: none;">Refresh the page to restart the game</div>
+    <div id="refresh" class="refresh" style="display: none;">Refresh the page to restart the game</div>
 
     <script src="script.js"></script>
 </body>

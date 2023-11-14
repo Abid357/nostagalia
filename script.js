@@ -80,13 +80,14 @@ function shuffle(array) {
 }
 
 function init() {
-  // for (let i = 0; i < data.questions.length; i += 1) {
-  //   questionIndices.push(i);
-  // }  
-  for (let i = 13; i < 14; i += 1) {
+  for (let i = 0; i < data.questions.length; i += 1) {
     questionIndices.push(i);
-  }
+  }  
+  // for (let i = 13; i < 14; i += 1) {
+  //   questionIndices.push(i);
+  // }
   questionIndices = shuffle(questionIndices);
+  document.getElementById('question-count').innerText = questionIndices.length;
   loadQuestion();
 }
 
@@ -163,7 +164,11 @@ async function wrongAnswer(event) {
 }
 
 function startGame() {
-  console.log('start game')
+  const startPageDivs = document.getElementsByClassName('start-page');
+  for (const div of startPageDivs)
+    div.style.display = 'none';
+  document.getElementById('main-page').style.display = 'block';
+  document.getElementById('refresh').style.display = 'block';
 }
 
 function endGame() {
