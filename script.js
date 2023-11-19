@@ -1,7 +1,7 @@
 const data = {
   "options": [
     "abid",
-    // "mizan",
+    "mizan",
     // "ifti",
     "reza",
     "shabib",
