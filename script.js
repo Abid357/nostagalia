@@ -6,7 +6,7 @@ const data = {
     "reza",
     "shabib",
     "huzaifa",
-    // "sakib",
+    "sakib",
     // "talha",
     "shehbaz",
     "abdulrehman"
@@ -22,15 +22,18 @@ const data = {
     "You may be bad but who has absolutely the worst sense of maps and directions and can't remember roads?",
     "His dorm was our default place to be at AUS.",
     "This fool almost killed someone (not really) by throwing a table tennis racket.",
-    "This guy takes the crown of laziness and procrastination because it took him 2+ years to buy a chair.",
+    "This guy takes the crown of laziness and procrastination.",
     "Who uses the N-word oddly often despite living in a country that can easily cancel him?",
     "The title of 'aim noob' based on a famous story was bestowed upon him.",
     "Every group has that one friend who always captures moments and is the default photographer.",
-    "This guy said he can literally make any food in his house even though he never made any for us but we believe him.",
+    "The guy said he can literally make any food in his house even though he never made any for us.",
     "This guy has had a clash or an argument with every single member of the group.",
     "The van guy.",
     "Who is the latest addition to our group?",
     "This gentleman pulled a Thanos flick to split the old Oxford-AUS group into the Secret group we have today.",
+    "It took this legend 2+ years to buy/get a chair.",
+    "The ultimate rager in DotA.",
+    "The slowest eater in the group.",
   ],
   "answers": [
     "mizan",
@@ -52,6 +55,9 @@ const data = {
     "abdulrehman",
     "abdulrehman",
     "shabib",
+    "talha",
+    "abid",
+    "ifti",
   ]
 };
 
@@ -139,7 +145,7 @@ async function correctAnswer(event) {
   }
   const num = Math.floor(Math.random() * 5) + 1;
   let audio;
-  if (['shehbaz', 'shabib', 'huzaifa', 'mizan', 'reza'].includes(button.value))
+  if (['shehbaz', 'shabib', 'huzaifa', 'mizan', 'reza', 'sakib'].includes(button.value))
     audio = new Audio('audios/' + button.value + '-correct-' + num + '.mp4');
   else
     audio = new Audio('audios/abid-correct-1.mp3');
@@ -153,7 +159,7 @@ async function wrongAnswer(event) {
   const button = getButton(event);
   const num = Math.floor(Math.random() * 5) + 1;
   let audio;
-  if (['shehbaz', 'shabib', 'huzaifa', 'mizan', 'reza'].includes(button.value))
+  if (['shehbaz', 'shabib', 'huzaifa', 'mizan', 'reza', 'sakib'].includes(button.value))
     audio = new Audio('audios/' + button.value + '-wrong-' + num + '.mp4');
   else
     audio = new Audio('audios/abid-wrong-1.mp3');
