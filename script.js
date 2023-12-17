@@ -39,6 +39,8 @@ const data = {
     "This guy has a lot of handshake stories.",
     "This guy has a lot of Jinn stories.",
     "Who slept through his entire uni life and miraculously made it?",
+    "If there was any mufta in AUS, almost guaranteed you will find him there.",
+
   ],
   "answers": [
     "mizan",
@@ -67,6 +69,7 @@ const data = {
     "ifti",
     "abid",
     "abdulrehman",
+    "talha",
     "talha",
   ]
 };
@@ -155,10 +158,10 @@ async function correctAnswer(event) {
   }
   const num = Math.floor(Math.random() * 5) + 1;
   let audio;
-  if (['shehbaz', 'shabib', 'huzaifa', 'mizan', 'reza', 'sakib'].includes(button.value))
-    audio = new Audio('audios/' + button.value + '-correct-' + num + '.mp4');
-  else
+  if (['abdulrehman', 'abid'].includes(button.value))
     audio = new Audio('audios/abid-correct-1.mp3');
+  else
+    audio = new Audio('audios/' + button.value + '-correct-' + num + '.mp4');
   await playAudio(audio);
   button.classList.remove('correct');
   loadQuestion();
@@ -169,10 +172,10 @@ async function wrongAnswer(event) {
   const button = getButton(event);
   const num = Math.floor(Math.random() * 5) + 1;
   let audio;
-  if (['shehbaz', 'shabib', 'huzaifa', 'mizan', 'reza', 'sakib'].includes(button.value))
-    audio = new Audio('audios/' + button.value + '-wrong-' + num + '.mp4');
-  else
+  if (['abdulrehman', 'abid'].includes(button.value))
     audio = new Audio('audios/abid-wrong-1.mp3');
+  else
+    audio = new Audio('audios/' + button.value + '-wrong-' + num + '.mp4');
   await playAudio(audio);
 }
 
