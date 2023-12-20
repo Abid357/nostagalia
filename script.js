@@ -40,7 +40,18 @@ const data = {
     "This guy has a lot of Jinn stories.",
     "Who slept through his entire uni life and miraculously made it?",
     "If there was any mufta in AUS, almost guaranteed you will find him there.",
-
+    "This sweet soul logged into person A's account, chatted with person B appearing as person A, and requested person B to be friends with him because person B had boycotted him.",
+    "He probably has the longest arms. It becomes more apparent when he walks.",
+    "Who is into Bollywood stuff the most?",
+    "He is the first to step into fatherhood.",
+    "The only one of us to be living in Bangladesh.",
+    "The best and the fastest driver among us.",
+    "The safest driver among us.",
+    "The laziest driver among us.",
+    "If he paid money for every time he was picked up for a hangout, he would be legit broke by now.",
+    "The first one to have an interracial marriage.",
+    "Crowned as the KFC King.",
+    
   ],
   "answers": [
     "mizan",
@@ -71,6 +82,17 @@ const data = {
     "abdulrehman",
     "talha",
     "talha",
+    "mizan",
+    "mizan",
+    "mizan",
+    "huzaifa",
+    "mizan",
+    "abdulrehman",
+    "ifti",
+    "abid",
+    "abid",
+    "shabib",
+    "abid",
   ]
 };
 
