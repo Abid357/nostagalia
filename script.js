@@ -44,14 +44,14 @@ const data = {
     "He probably has the longest arms. It becomes more apparent when he walks.",
     "Who is into Bollywood stuff the most?",
     "He is the first to step into fatherhood.",
-    "The only one of us to be living in Bangladesh.",
-    "The best and the fastest driver among us.",
-    "The safest driver among us.",
-    "The laziest driver among us.",
+    "Identify the only one of us to be living in Bangladesh.",
+    "Select the best and the fastest driver among us.",
+    "Select the safest driver among us.",
+    "Select the laziest driver among us.",
     "If he paid money for every time he was picked up for a hangout, he would be legit broke by now.",
-    "The first one to have an interracial marriage.",
-    "Crowned as the KFC King.",
-    
+    "He is the first to have an interracial marriage.",
+    "He is crowned as the KFC King, always and forever.",
+    "He is the first to have performed Hajj, Ma shaa' Allah.",
   ],
   "answers": [
     "mizan",
@@ -92,6 +92,7 @@ const data = {
     "abid",
     "abid",
     "shabib",
+    "abid",
     "abid",
   ]
 };
