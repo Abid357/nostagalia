@@ -52,6 +52,8 @@ const data = {
     "He is the first to have an interracial marriage.",
     "He is crowned as the KFC King, always and forever.",
     "He is the first to have performed Hajj, Ma shaa' Allah.",
+    "Who is the first among us to get married?",
+    "He is the civil engineer of the group.",
   ],
   "answers": [
     "mizan",
@@ -94,6 +96,8 @@ const data = {
     "shabib",
     "abid",
     "abid",
+    "huzaifa",
+    "mizan",
   ]
 };
 
