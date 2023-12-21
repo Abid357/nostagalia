@@ -123,7 +123,7 @@ const data = {
     "shabib",
     "abid",
     "abid",
-    "huzaifa",
+    "mizan",
     "mizan",
     "shabib",
     "reza",
