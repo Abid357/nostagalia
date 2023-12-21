@@ -75,6 +75,10 @@ const data = {
     "Who is the first person Shehbaz met from our group?",
     "The person that immediately comes to mind on the topic of AI (artificial intelligence).",
     "This guy seems to never age, Ma shaa' Allah.",
+    "If you ever want to ask for a file resource that you can't find, you ask this guy who then shares a Dropbox link.",
+    "He sweats instantly and easily and is intolerant to hot weather.",
+    "He became the school headboy once.",
+    
   ],
   "answers": [
     "mizan",
@@ -140,6 +144,9 @@ const data = {
     "abid",
     "sakib",
     "ifti",
+    "abid",
+    "abid",
+    "abid",
   ]
 };
 
