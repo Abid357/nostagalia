@@ -81,6 +81,10 @@ const data = {
     "He was the president of Bangladesh Cultural Club in AUS.",
     "He was the president of Islamic Cultural Club in AUS.",
     "He is the first to have memorized the Qur'an, Ma shaa' Allah.",
+    "Who is the first person Huzaifa met from our group?",
+    "His company relocated him from the USA to the UAE for sometime.",
+    "This guy lost his Emirates Driving Institute student permit card, didn't care, traveled abroad, traveled back, found it was with another one of us.",
+    "This guy safekept an Emirates Driving Institute that belonged to another of us for years, and even returned it successfully.",
   ],
   "answers": [
     "mizan",
@@ -152,6 +156,10 @@ const data = {
     "shabib",
     "abid",
     "abdulrehman",
+    "abid",
+    "shehbaz",
+    "shehbaz",
+    "talha",
   ]
 };
 
