@@ -78,7 +78,9 @@ const data = {
     "If you ever want to ask for a file resource that you can't find, you ask this guy who then shares a Dropbox link.",
     "He sweats instantly and easily and is intolerant to hot weather.",
     "He became the school headboy once.",
-    
+    "He was the president of Bangladesh Cultural Club in AUS.",
+    "He was the president of Islamic Cultural Club in AUS.",
+    "He is the first to have memorized the Qur'an, Ma shaa' Allah.",
   ],
   "answers": [
     "mizan",
@@ -147,6 +149,9 @@ const data = {
     "abid",
     "abid",
     "abid",
+    "shabib",
+    "abid",
+    "abdulrehman",
   ]
 };
 
