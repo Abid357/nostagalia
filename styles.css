@@ -197,3 +197,12 @@
 .your-score {
     font-size: 2rem;
 }
+
+.have-fun > p:first-child {
+    margin: 0;
+}
+
+.have-fun > p:nth-child(2) {
+    font-size: 20px !important;
+    margin-bottom: 0;
+}

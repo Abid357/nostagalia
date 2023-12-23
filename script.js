@@ -65,7 +65,7 @@ const data = {
     [("Who is the first person that comes to mind in Kandura?"), ("abdulrehman")],
     [("This guy HATES the constant mouse clicking sound when someone plays DotA nearby."), ("ifti")],
     [("He is the first to go for PhD studies."), ("sakib")],
-    [("Every language he speaks - English, Urdu, even Bengali - has a cringy posh accent."), ("shabib")],
+    [("Every language he speaks - English, Urdu, Arabic, even Bengali - sounds like a cringy posh accent to most of us."), ("shabib")],
     [("Who is the first person Abid met from our group?"), ("sakib")],
     [("Who is the first person Sakib met from our group?"), ("abid")],
     [("Who is the first person Ifthikar met from our group?"), ("sakib")],
@@ -83,8 +83,13 @@ const data = {
     [("He is the first to have memorized the Qur'an, Ma shaa' Allah."), ("abdulrehman")],
     [("Who is the first person Huzaifa met from our group?"), ("abid")],
     [("His company relocated him from the USA to the UAE for sometime."), ("shehbaz")],
-    [("This guy lost his Emirates Driving Institute student permit card, didn't care, traveled abroad, traveled back, found it was with another one of us."), ("shehbaz")],
+    [("This guy lost his Emirates Driving Institute student permit card, didn't care, traveled abroad, traveled back, found it was with another one of us for years."), ("shehbaz")],
     [("This guy safekept an Emirates Driving Institute student permit card that belonged to another of us for years, and even returned it successfully."), ("talha")],
+    [("The most punctual guy among us and has rarely ever made us wait whenever we pick him."), ("ifti")],
+    [("His photo in the secret group display picture gives big dong energy."), ("shehbaz")],
+    [("To reduce global warming, this legend was putting out a lit cigarette in the middle of the road while a car was about to run him over."), ("reza")],
+    [("His best imitation in recitation is of Sheikh Sudais and many commended him, Ma shaa' Allah."), ("huzaifa")],
+    [("He got popular in AUS for his Urdu poetry (Shayari)."), ("huzaifa")],
   ],
 };
 
