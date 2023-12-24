@@ -206,7 +206,7 @@ async function correctAnswer(event) {
   }
   const num = Math.floor(Math.random() * 5) + 1;
   let audio;
-  if (['abdulrehman', 'abid'].includes(button.value))
+  if (['abid'].includes(button.value))
     audio = new Audio('audios/abid-correct-1.mp3');
   else
     audio = new Audio('audios/' + button.value + '-correct-' + num + '.mp4');
@@ -220,7 +220,7 @@ async function wrongAnswer(event) {
   const button = getButton(event);
   const num = Math.floor(Math.random() * 5) + 1;
   let audio;
-  if (['abdulrehman', 'abid'].includes(button.value))
+  if (['abid'].includes(button.value))
     audio = new Audio('audios/abid-wrong-1.mp3');
   else
     audio = new Audio('audios/' + button.value + '-wrong-' + num + '.mp4');
