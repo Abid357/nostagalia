@@ -132,6 +132,15 @@ const data = {
     [("Who suffered a hand injury after being involved in a 3-car accident?"), ("talha")],
     [("Who suffered a trauma because his friend drove at a high speed over a speed bump and the car sort of flew?"), ("talha")],
     [("This genius is known for pouring water into Karak if it is too sweet for him."), ("ifti")],
+    [("Who gets super insecure and acts sus if he spots any police nearby?"), ("ifti")],
+    [("This legendary driver almost ran over a deer on the way to Oman."), ("reza")],
+    [("Ice tea? Nope. Letting hot tea cool down then drink? Yes. Guess who?"), ("ifti")],
+    [("Who says this phrase the most: 'Not cool bro' or 'Not cool man'?"), ("ifti")],
+    [("He was the only sane person to warn us multiple times NOT to drive the van over the wet sand dune in Al-Madam."), ("ifti")],
+    [("Who uses the word 'Shonamoni'?"), ("shabib")],
+    [("Who uses the word 'Sesra'?"), ("shabib")],
+    [("Who is the eldest in our group?"), ("mizan")],
+    [("He acted in Tahnun's short film as an Indian who says 'Enda porelle'."), ("shabib")],
   ],
 };
 
