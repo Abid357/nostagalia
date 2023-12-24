@@ -118,7 +118,7 @@ const data = {
     [("Through marriage, he extended his family in Oman."), ("shabib")],
     [("Through marriage, he extended his family in Qatar."), ("reza")],
     [("Through marriage, he extended his family in Indonesia."), ("sakib")],
-    [("He has work experience as a receptionist in a motel."), ("huzaifa")],
+    [("He has work experience as a motel keeper."), ("huzaifa")],
   ],
 };
 
