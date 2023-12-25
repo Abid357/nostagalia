@@ -139,8 +139,13 @@ const data = {
     [("He was the only sane person to warn us multiple times NOT to drive the van over the wet sand dune in Al-Madam."), ("ifti")],
     [("Who uses the word 'Shonamoni'?"), ("shabib")],
     [("Who uses the word 'Sesra'?"), ("shabib")],
-    [("Who is the eldest in our group?"), ("mizan")],
-    [("He acted in Tahnun's short film as an Indian who says 'Enda porelle'."), ("shabib")],
+    [("Who is the oldest in our group?"), ("mizan")],
+    [("He tried to act in Tahnun's short film as a Keralite and said 'Ende porelle'."), ("shabib")],
+    [("Despite not being an Indian, he stayed in India for a long time."), ("mizan")],
+    [("He almost fought with another one of us because the other fool displaced his chair and made him fall. Don't worry, we held him back from creating any fight and calmed him down."), ("mizan")],
+    [("In cricket, this guy bowls in the same style as Malinga."), ("mizan")],
+    [("In high school he used to have a special snake attack where he would hit on the head using the tip of his fingers."), ("mizan")],
+    [("A broker offered him saying 'jayga?' and he replied with 'tera behen hoga toh jayga'."), ("mizan")]
   ],
 };
 
