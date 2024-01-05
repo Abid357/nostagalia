@@ -202,6 +202,16 @@ const data = {
     [("This brave man had a fight in school and as a result, got a black eye."), ("sakib")],
     [("His 'dab on them haters' during a mountain hike was made into a GIF."), ("sakib")],
     [("He is a lone wolf when it comes to traveling."), ("sakib")],
+    [("Who rode a scooter about the city during his travel?"), ("sakib")],
+    [("He had a heated debate with another one of us because he left some trash, like empty juice box, in the other guy's car."), ("huzaifa")],
+    [("He was the default front-seat passenger in the old hangout car Toyota Innova."), ("huzaifa")],
+    [("Almost every single week, his family would eat out at a new restaurant."), ("huzaifa")],
+    [("He used to prepare Hookah for his father at home."), ("huzaifa")],
+    [("Who is the biggest cat lover in the group?"), ("huzaifa")],
+    [("Who named his cat 'Simba'?"), ("huzaifa")],
+    [("This dude is the worst swimming instructor ever. Instead of trying to teach another one of us how to swim, he just died laughing while the other guy drowned."), ("huzaifa")],
+    [("Sometime before marriage, the Imaam provided a questionnaire to him and his wife to write, share and discuss their expectations."), ("huzaifa")],
+    [("He first went to Canada, came back to the UAE, then lastly moved to the USA for settling down."), ("huzaifa")]
   ],
 };
 
