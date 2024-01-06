@@ -298,11 +298,7 @@ async function correctAnswer(event) {
     optionButtons[i].removeEventListener('click', wrongAnswer);
   }
   const num = Math.floor(Math.random() * 5) + 1;
-  let audio;
-  if (['abid'].includes(button.value))
-    audio = new Audio('audios/abid-correct-1.mp3');
-  else
-    audio = new Audio('audios/' + button.value + '-correct-' + num + '.mp4');
+  let audio = new Audio('audios/' + button.value + '-correct-' + num + '.mp4');
   await playAudio(audio);
   button.classList.remove('correct');
   loadQuestion();
@@ -312,11 +308,7 @@ async function wrongAnswer(event) {
   wrongScore.innerText = parseInt(wrongScore.innerText) + 1;
   const button = getButton(event);
   const num = Math.floor(Math.random() * 5) + 1;
-  let audio;
-  if (['abid'].includes(button.value))
-    audio = new Audio('audios/abid-wrong-1.mp3');
-  else
-    audio = new Audio('audios/' + button.value + '-wrong-' + num + '.mp4');
+  let audio = new Audio('audios/' + button.value + '-wrong-' + num + '.mp4');
   await playAudio(audio);
 }
 
