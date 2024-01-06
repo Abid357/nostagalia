@@ -257,7 +257,8 @@ function loadQuestion() {
   const answer = data.trivia[idx][1];
   questionElement.innerText = data.trivia[idx][0];
 
-  let allOptions = shuffle(data.options);
+  let allOptions = [...data.options];
+  allOptions = shuffle(allOptions);
   allOptions.splice(allOptions.indexOf(answer), 1);
   options = shuffle([answer, ...allOptions.slice(0, 3)]);
 
